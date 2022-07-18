@@ -1,0 +1,190 @@
+
+.form-all {
+    font-family: Inter, sans-serif;
+  }
+  .form-all .qq-upload-button,
+  .form-all .form-submit-button,
+  .form-all .form-submit-reset,
+  .form-all .form-submit-print {
+    font-family: Inter, sans-serif;
+  }
+  .form-all .form-pagebreak-back-container,
+  .form-all .form-pagebreak-next-container {
+    font-family: Inter, sans-serif;
+  }
+  .form-header-group {
+    font-family: Inter, sans-serif;
+  }
+  .form-label {
+    font-family: Inter, sans-serif;
+  }
+
+  .form-label.form-label-auto {
+    
+  display: block;
+  float: none;
+  text-align: left;
+  width: 100%;
+
+  }
+
+  .form-line {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .form-all {
+    max-width: 752px;
+    width: 100%;
+  }
+
+  .form-label.form-label-left,
+  .form-label.form-label-right,
+  .form-label.form-label-left.form-label-auto,
+  .form-label.form-label-right.form-label-auto {
+    width: 230px;
+  }
+
+  .form-all {
+    font-size: 16px
+  }
+  .form-all .qq-upload-button,
+  .form-all .qq-upload-button,
+  .form-all .form-submit-button,
+  .form-all .form-submit-reset,
+  .form-all .form-submit-print {
+    font-size: 16px
+  }
+  .form-all .form-pagebreak-back-container,
+  .form-all .form-pagebreak-next-container {
+    font-size: 16px
+  }
+
+  .supernova .form-all, .form-all {
+    background-color: rgba(87,87,87,0.2);
+  }
+
+  .form-all {
+    color: #3b3b3b;
+  }
+  .form-header-group .form-header {
+    color: rgb(255, 244, 244);
+  }
+  .form-header-group .form-subHeader {
+    color: #3b3b3b;
+  }
+  .form-label-top,
+  .form-label-left,
+  .form-label-right,
+  .form-html,
+  .form-checkbox-item label,
+  .form-radio-item label {
+    color: #3b3b3b;
+  }
+  .form-sub-label {
+    color: #555555;
+  }
+
+  .supernova {
+    background-color: #F1CCC2;
+  }
+  .supernova body {
+    background: transparent;
+  }
+
+  .form-textbox,
+  .form-textarea,
+  .form-dropdown,
+  .form-radio-other-input,
+  .form-checkbox-other-input,
+  .form-captcha input,
+  .form-spinner input {
+    background-color: #fff;
+  }
+
+  .supernova {
+    background-image: none;
+  }
+  #stage {
+    background-image: none;
+  }
+
+  .form-all {
+    background-image: none;
+  }
+
+  .form-all {
+    position: relative;
+  }
+  .form-all:before {
+    content: "";
+    background-image: url("../bootstrap/img/mozi.png");
+    display: inline-block;
+    height: 227.02702702703px;
+    position: absolute;
+    background-size: 720px 227px;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .form-all {
+    margin-top: 247px !important;
+  }
+  .form-all:before {
+    top: -237px;
+    background-position: top center;
+    left: 0;
+  }
+         
+.ie-8 .form-all:before { display: none; }
+.ie-8 {
+  margin-top: auto;
+  margin-top: initial;
+}
+button {
+  --glow-color: rgb(217, 176, 255);
+  --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(100, 61, 136);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 1em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+ }
+ 
+ button::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+ }
+ 
+ button:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 2em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+ }
+ 
+ button:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+         0 0 2.5em 2em var(--glow-spread-color),
+         inset 0 0 .5em .25em var(--glow-color);
+ }
