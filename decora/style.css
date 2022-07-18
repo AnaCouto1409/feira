@@ -1,0 +1,189 @@
+/* GERAL */
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: black;
+
+}
+main{
+    min-width: 600px;
+    max-width: 1000px;
+    margin:5%;
+
+}
+
+.menu a{
+    font-family:'Courier New', Courier, monospace;
+    text-align:left;
+    font-weight:90;
+    color:#ffffff;
+    text-decoration: none;
+    margin-left:90%;
+
+}
+
+.models{
+    background-color: #ffffff;
+    margin-top: 1%;
+
+}
+
+.models-item{
+    width: 40%;
+    height: 20%;
+    display:flex;
+    margin-left: 30%;
+
+}
+
+.models-item-img{
+    padding-left: 10%;
+    width: 60%;
+    height:flex;
+    margin: -3%;
+
+}
+.models-item-img{
+    padding-left: 10%;
+    width: 60%;
+    height:flex;
+    margin: -3%;
+}
+
+.models-item--add{
+    padding-left: 10%;
+    width: 60%;
+    height:flex;
+    margin: 5%;
+}
+.models-item--price{
+    padding-left: 10%;
+    width: 60%;
+    height:flex;
+    margin: 5%;
+}
+.models-item--name{
+    padding-left: 10%;
+    width: 60%;
+    height:flex;
+    margin: 5%;
+}
+.models-item--desc{
+    padding-left: 10%;
+    width: 60%;
+    height:flex;
+    margin: 5%;
+}
+.cart--item{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 22%;
+}
+
+
+.cart--item--qtarea{
+    padding-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.cart--item-qtmeses{
+    padding-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cart--item-qt{
+    padding-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;;
+}
+.cart--item-qtmais{
+    padding-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cart--item-qtmenos{
+    padding-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* LAYOUT */
+.modelo-area {
+    padding-left: 10%;
+    display: inline-block;
+    width: 80%;
+}
+.cart--area{
+    padding-left: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.menu-banner, img{
+    align-items: center;
+
+}
+.menu-closer{
+    padding-left: 10px;
+}
+
+
+
+/* BUTTON */
+.cart{
+    padding-left: 10px;
+}
+.cart--totalitem desconto{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all .5s;
+    margin-left: 15px;
+}
+.cart--item-qtmeses {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border: 0.5rem solid #7e459b;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all .5s;
+    margin-left: 15px;
+}
+
+.cart--item-qtmeses:hover {
+    background-color: #999;
+    color: white;
+}
+
+.cart-finalizar{
+    width: 10%;
+    width: 10%;
+    height: 80%;
+    border: 0.5rem solid black;
+    border-radius:  0.5rem;
+    background-color: #7e459b;
+    color:white
+}
+.cart-finalizar :hover{
+    color:#74459b;
+    background-color: gold;
+}
